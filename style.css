@@ -456,6 +456,83 @@ body {
   gap: 8px;
  
 }
+/* Meet The Host */
+.meet-host {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* padding: 60px 20px; */
+  text-align: center;
+ 
+}
+.host-content {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #FFFFFF;
+  
+}
+.host-card {
+  display: flex;
+  gap: 30px;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  align-items: center;
+  flex-wrap: wrap;
+  background: rgba(53, 17, 101, 0.4);
+  border-radius: 24px;
+  padding: 20px;
+  
+}
+.host-card img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.host-card .host-info {
+    flex: 1;
+}
+.info {
+  font-size: 32px;
+  color: #FFFFFF;
+  font-weight: 700;
+  margin-bottom: 15px;
+
+}
+
+.host-info p {
+  font-size: 16px;
+  color: #ccc;
+  line-height: 1.5;
+}
+.social-links a {
+  margin-right: 15px;
+  color: #ff4f81;
+  text-decoration: none;
+}
+
+/* Footer */
+.site-footer {
+  background: #1a1a2e;
+  padding: 40px 20px;
+  text-align: center;
+}
+.site-footer h2 {
+  font-size: 2em;
+}
+.site-footer h2 span {
+  color: #ff4f81;
+}
+.social-footer a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.site-footer p {
+  margin-top: 20px;
+  color: #888;
+  font-size: 0.9em;
+}
 
 
 
