@@ -469,6 +469,7 @@ body {
   font-weight: 600;
   margin-bottom: 40px;
   color: #FFFFFF;
+  margin-top: 60px;
   
 }
 .host-card {
@@ -492,11 +493,12 @@ body {
 .host-card .host-info {
     flex: 1;
 }
-.info {
-  font-size: 32px;
+.host-info {
+  font-size: 32pxpx;
   color: #FFFFFF;
   font-weight: 700;
   margin-bottom: 15px;
+  text-align: left;
 
 }
 
@@ -504,22 +506,54 @@ body {
   font-size: 16px;
   color: #ccc;
   line-height: 1.5;
+  margin-bottom: 16px;
+  margin-top: 16px;
 }
 .social-links a {
-  margin-right: 15px;
-  color: #ff4f81;
-  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  background: #1A0B2E;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  border: 1px solid rgba(83, 60, 114, 1);
+  
 }
+.social-links a img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
 
 /* Footer */
 .site-footer {
-  background: #1a1a2e;
-  padding: 40px 20px;
+  padding: 60px;
   text-align: center;
 }
-.site-footer h2 {
-  font-size: 2em;
+.footer-heading {
+     font-size: 36px;
+    font-weight: 700;
+    color: #FFFFFF
+
 }
+.footer-bg {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto 40px;
+}
+
+
+.footer-heading span {
+     background: linear-gradient( rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* .site-footer h2 {
+  font-size: 2em;
+} */
 .site-footer h2 span {
   color: #ff4f81;
 }
